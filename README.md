@@ -55,5 +55,6 @@ Ensure that the corresponding HTML element (in this case, the header) has an id 
 <header id="spectrumPlugin" class="spectrumHeader">
 ```
 
+
 That's it! Enjoy your spectrum, and go wrap the interwebz in chroma. 
 If you'd like to improve this plugin, please feel free to fork it ;)
