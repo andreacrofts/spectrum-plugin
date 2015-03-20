@@ -1,7 +1,7 @@
-spectrum
+Spectrum
 ========
 
-A dynamic &amp; colourful jQuery plugin perfect for adding subtle colour transitions to your web applications.
+A dynamic &amp; colourful jQuery plugin perfect for adding subtle colour transitions to your web applications. View it live at www.andreacrofts.codes/spectrum.
 
 ### First Things First
 Download jquery.spectrum.js and place the file into the JavaScript folder in your directory. The root path should look something like this:
