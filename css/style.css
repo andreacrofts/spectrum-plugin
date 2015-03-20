@@ -10,7 +10,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 h1 {
 	font-family: 'Lato', helvetica, sans-serif;
-	font-size: 90px;
+	font-size: 4.5em;
 	font-weight: 700;
 	letter-spacing: 4px;
 	line-height: 100px;
@@ -167,7 +167,8 @@ header {
 	width: 100vw;
 	height: 100vh;
 	margin: 0 auto;
-	padding: 100px;
+	padding-top: 65px;
+	padding-bottom: 80px;
 }
 
 header h1 {
@@ -240,7 +241,8 @@ button {
 
 footer {
 	background-color: #7189FF;
-	padding: 100px;
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
 footer button {
@@ -267,11 +269,11 @@ footer button i {
 @media (max-width: 1300px) {
 
 	.wrapper {
-		width: 80%;
+		width: 85%;
 	}
 
 	.contentWrapper {
-		width: 80%;
+		width: 85%;
 	}
 
 }
@@ -282,27 +284,20 @@ footer button i {
 
 	header {
 		width: 100%;
-		padding: 5%;
+		padding-top: 5%;
+	}
+
+	header br {
+		display: none;
 	}
 
 	header h1 {
-		margin-top: 60px;
-		font-size: 75px;
-		line-height: 75px;	
+		font-size: 3.65em;
+		line-height: 1.25em;	
 	}
 	
 	button {
-		display: block;
-	}
-
-	footer p {
-		text-align: center;
-	}
-
-	footer button {
-		margin: 0 auto;
-		margin-left: auto;
-		margin-right: auto;
+		clear: both;
 	}
 
 }
@@ -316,6 +311,37 @@ footer button i {
 		font-size: 52px;
 		line-height: 57px;	
 	}
+
+	h2 {
+	font-size: 30px;
+	line-height: 35px;
+	}
+
+	button {
+		font-size: 15px;
+		letter-spacing: 0.5px;
+	}
+}
+
+
+/* Smallest of the Phones */
+@media (max-width: 300px) {
+
+
+header h1 {
+	font-size: 32px;
+	line-height: 36px;	
+}
+
+h2 {
+	font-size: 25px;
+	line-height: 30px;
+}
+
+button {
+	font-size: 12px;
+}
+
 }
 
 

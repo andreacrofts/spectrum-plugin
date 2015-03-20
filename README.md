@@ -1,7 +1,7 @@
-Spectrum
+spectrum
 ========
 
-A dynamic &amp; colourful jQuery plugin perfect for adding subtle colour transitions to your web applications. View Spectrum live at www.andreacrofts.codes/spectrum.
+A dynamic &amp; colourful jQuery plugin perfect for adding subtle colour transitions to your web applications.
 
 ### First Things First
 Download jquery.spectrum.js and place the file into the JavaScript folder in your directory. The root path should look something like this:
@@ -55,7 +55,6 @@ Ensure that the corresponding HTML element (in this case, the header) has an id 
 <header id="spectrumPlugin" class="spectrumHeader">
 ```
 
-========
 
 That's it! Enjoy your spectrum, and go wrap the interwebz in chroma. 
 If you'd like to improve this plugin, please feel free to fork it ;)
